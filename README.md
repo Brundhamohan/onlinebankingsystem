@@ -26,29 +26,11 @@ It is ideal for showcasing in your resume or portfolio as it highlights **Java +
 - **SHA-256** – Password hashing for security  
 
 ---
-## 📂 Project Structure
-├─ src/
-│ ├─ Main.java # Console menu and UI
-│ ├─ BankSystem.java # Core banking logic (deposit, withdraw, transfer, etc.)
-│ ├─ DatabaseConnector.java # JDBC connection handler
-│ ├─ User.java # User model
-│ ├─ Account.java # Account model
-│ └─ Transaction.java # Transaction model
-│
-├─ lib/ # Place MySQL Connector JAR here
-│ └─ mysql-connector-j-8.x.x.jar
-│
-├─ database.sql # SQL script to create DB & tables
-└─ README.md # Project documentation
-----
-
-
----
 
 ## 🗄️ Database Setup
 
--**1. Open MySQL CLI or Workbench.  
--**2. Run the SQL file provided (`database.sql`)
+-1. Open MySQL CLI or Workbench.  
+-2. Run the SQL file provided (`database.sql`)
 
 ## 🐛 Common Errors & Fixes
 
